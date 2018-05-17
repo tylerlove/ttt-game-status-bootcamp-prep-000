@@ -20,7 +20,7 @@ def won?(board)
     win_pos_1 = board[combo[0]]
     win_pos_2 = board[combo[1]]
     win_pos_3 = board[combo[2]]
-    if(win_pos_1 == win_pos_2 && win_pos_2 == win_pos_3)
+    if(win_pos_1 == 'X' && win_pos_2 == 'X' && win_pos_3 == 'X')
       return combo
     else
       false
