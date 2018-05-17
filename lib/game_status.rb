@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   puts WIN_COMBINATIONS
-  WIN_COMBINATIONS.select do |win_combo|
-    puts win_combo
-  end
+  # WIN_COMBINATIONS.select do |win_combo|
+  #   puts win_combo
+  # end
 end
